@@ -36,9 +36,9 @@ cd backend_interview_02
 ### 2. Start the Application (Docker Compose - Recommended)
 ```bash
 # Start all services (database + API)
-docker-compose up -d
+docker-compose up -d --build
 
-# The API will be available at http://localhost:8003
+# The API will be available at http://localhost:8160
 ```
 
 That's it! Docker Compose handles everything including:
